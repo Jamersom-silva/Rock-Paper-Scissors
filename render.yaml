@@ -1,0 +1,19 @@
+# render.yaml
+services:
+  - type: web
+    name: rock-paper-scissors
+    runtime: python
+    repo: https://github.com/yourusername/rock-paper-scissors
+    plan: free
+    region: oregon
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: FLASK_APP
+        value: app.py

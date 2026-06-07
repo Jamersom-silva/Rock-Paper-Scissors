@@ -1,0 +1,214 @@
+# ============================================
+# PYTHON
+# ============================================
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Virtual Environment (diferentes nomes comuns)
+venv*/
+env*/
+.env/
+.venv/
+
+# Python distributions
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pyenv
+.python-version
+
+# ============================================
+# FLASK
+# ============================================
+
+# Flask instance
+instance/
+.webassets-cache
+
+# Flask secret key file
+.secret_key
+
+# Environment variables
+.env
+.flaskenv
+
+# ============================================
+# IDE / EDITOR FILES
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.settings/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.atom/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# OS FILES
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# DATABASES
+# ============================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# LOGS
+# ============================================
+
+*.log
+logs/
+log/
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+
+# Flask session files
+flask_session/
+
+# Uploads directory
+uploads/
+static/uploads/
+
+# Temporary files
+temp/
+tmp/
+
+# Environment variables (sensitive data)
+.env.local
+.env.production
+.env.development
+
+# Local configuration
+config.local.py
+local_settings.py
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+
+# Vercel
+.vercel/
+
+# Render
+.render/
+
+# Heroku
+.slugignore
+
+# Docker
+*.tar
+*.tar.gz
