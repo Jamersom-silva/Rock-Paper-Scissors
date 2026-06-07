@@ -2,7 +2,7 @@
 
 A modern web-based Rock Paper Scissors game built with **Flask**, featuring real-time scoring, match history, and a responsive UI.
 
-🌐 Live Demo: https://rock-paper-scissors.onrender.com
+🌐 Live Demo: [https://rock-paper-scissors.onrender.com](https://rock-paper-scissors-bpxy.onrender.com)
 
 ---
 
