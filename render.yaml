@@ -3,7 +3,7 @@ services:
   - type: web
     name: rock-paper-scissors
     runtime: python
-    repo: https://github.com/yourusername/rock-paper-scissors
+    repo: https://github.com/Jamersom-silva/Rock-Paper-Scissors
     plan: free
     region: oregon
     buildCommand: "./build.sh"
